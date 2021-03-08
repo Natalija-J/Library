@@ -89,28 +89,28 @@ namespace Library_Console
                     }
                     else
                     {
-                        System.Console.WriteLine("'{0}' by {1} has been returned to the library (available copies: {3})",
+                        Console.WriteLine("'{0}' by {1} has been returned to the library (available copies: {2})",
                         returned.Title, returned.Author, returned.Copies);
                     }
                 }
-                System.Console.WriteLine();
+                Console.WriteLine();
                 manager.BackgroundColor();
                 manager.ForegroundColor();
-                System.Console.WriteLine("Books that have not been returned yet: ");
-                System.Console.ResetColor();
+                Console.WriteLine("Books that have not been returned yet: ");
+                Console.ResetColor();
 
                 foreach (var book in manager.GetUserBooks())
                 {
-                    System.Console.WriteLine("'{0}' by {1} ({2})",
+                    Console.WriteLine("'{0}' by {1} ({2})",
                         book.Title, book.Author, book.Year);
                 }
 
             }
-            System.Console.WriteLine();
+            Console.WriteLine();
             manager.BackgroundColor();
             manager.ForegroundColor();
-            System.Console.Write("Thank you for using our library!");
-            System.Console.ResetColor();
+            Console.Write("Thank you for using our library!");
+            Console.ResetColor();
         }
     }
 }
