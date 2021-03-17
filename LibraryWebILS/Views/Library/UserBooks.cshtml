@@ -1,0 +1,23 @@
+﻿@model List<Library_Logic.DB.UserBooks>
+
+<h1>Your books</h1>
+
+<table class="table table-striped">
+    <tr>
+        <th style="text-align: left">Book</th>
+        <th style="text-align: left">Author</th>
+        <th style="text-align: left">Year</th>
+        <th style="text-align: center">Action</th>
+
+    </tr>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.Year</td>
+            <td style="text-align: center"><a asp-controller="Library" asp-action="Return" asp-route-title="@book.Title">Return</a></td>
+
+        </tr>
+    }
+</table>

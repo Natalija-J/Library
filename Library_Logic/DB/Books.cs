@@ -14,5 +14,17 @@ namespace Library_Logic.DB
         public int Year { get; set; }
         public int Copies { get; set; }
         public string Author { get; set; }
+
+        public Books()
+        {
+            Copies = 1;
+        }
+        public Books(string title, string author, int year, int copies)
+        {
+            Title = title;
+            Author = author;
+            Year = year;
+            Copies = copies;
+        }
     }
 }

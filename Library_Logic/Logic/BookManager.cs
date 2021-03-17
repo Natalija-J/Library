@@ -64,7 +64,8 @@ namespace Library_Logic
                     
                     db.SaveChanges();
                     return book;
-                }               
+                }
+                
            }
             return null;            
        }

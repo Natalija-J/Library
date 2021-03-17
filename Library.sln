@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library_Console", "Library\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library_Logic", "Library_Logic\Library_Logic.csproj", "{5DF24B3F-43AE-42BF-ABDC-6E0660325820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryWebILS", "LibraryWebILS\LibraryWebILS.csproj", "{2076A0F9-375F-4F71-8D4C-4E95B50F7178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5DF24B3F-43AE-42BF-ABDC-6E0660325820}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF24B3F-43AE-42BF-ABDC-6E0660325820}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DF24B3F-43AE-42BF-ABDC-6E0660325820}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2076A0F9-375F-4F71-8D4C-4E95B50F7178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2076A0F9-375F-4F71-8D4C-4E95B50F7178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2076A0F9-375F-4F71-8D4C-4E95B50F7178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2076A0F9-375F-4F71-8D4C-4E95B50F7178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
